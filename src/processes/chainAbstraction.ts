@@ -10,7 +10,6 @@ class ChainAbsTransactions {
 
     public chainAbsTxTopic =  config.KAFKA_BLOCKS.CHAIN_ABS_TX_TOPIC
     public chainAbsTxGroupId = config.KAFKA_BLOCKS.CHAIN_ABS_TX_GROUP_ID
-    // public chainAbsApiUrl = 'http://example-host:8082'
     public chainAbsApiUrl = 'https://mainnet.ticssolver.com'
 
     public tica_pending_balance_update_topic = config.KAFKA_BALANCE.TICS_PENDING_BALANCE_UPDATE_TOPIC
